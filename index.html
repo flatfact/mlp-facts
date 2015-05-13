@@ -531,25 +531,7 @@ end
 	}
 /*there you go Rarity*/
 
-.ghost-button {
-  display: inline-block;
-  width: 200px;
-  padding: 8px;
-  color: #fff;
-  border: 2px solid #fff;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-  transition: background-color 0.2s ease-out,
-              color 0.2s ease-out;
-}
-.ghost-button:hover,
-.ghost-button:active {
-  background-color: #fff;
-  color: #000;
-  transition: background-color 0.3s ease-in,
-              color 0.3s ease-in;
-}
+
 
 body {
     text-decoration-color: white;
@@ -594,6 +576,26 @@ p {
     }
         
     @media only screen and (max-width: 767px) {
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+   margin-bottom: 10px;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
     foot {
     margin-left: 5px;
     margin-right: 5px;
@@ -702,6 +704,27 @@ num {
     }
         
  @media only screen and (min-width: 767px) {
+
+     .ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
+     
 foot {
     margin-left: 10px;
     margin-right: 10px;
@@ -714,7 +737,9 @@ word-wrap: break-word;
 
 
  }
-
+#fp-nav {
+    color: #000;
+}
 
 	</style>
 
@@ -731,7 +756,7 @@ word-wrap: break-word;
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage', '8thPage',  '9thPage', '10thPage','About'],
-				sectionsColor: ['#000000', '#000000', '#000000', '#000000', '#000000','#000000','#000000','#7f7f7f','#000000','#000000', '#EEEEEE'],
+				sectionsColor: ['#000000', '#000000', '#000000', '#000000', '#000000','#000000','#7f7f7f','#7f7f7f','#000000','#000000', '#EEEEEE'],
 				navigation: true,
 				navigationPosition: 'right',
 				navigationTooltips: ['Top', '1', '2', '3', '4', '5', '6', '7', '8','9', 'About'],
@@ -814,6 +839,7 @@ word-wrap: break-word;
 		</div>
 	</div>
     <div class="section" id="section10">
+    
     <div class="intro"><h2></div><div align="center"><foot>CC 2015 Subthai_Production, Hoof.fr and Flatfact.com<br>บทความต่างๆในเว็บไซต์ อนุญาตให้นำไปเผยแพร่และแก้ไขได้โดยต้องอ้างอิงที่มาและไม่ใช้เพื่อการค้า ตาม<a href="https://creativecommons.org/licenses/by-nc/4.0/">สัญญาอนุญาตครีเอทีฟคอมมอนส์ 4.0 International</foot></a>.<br>Powered by Jquery Fullpage.js on<a href="https://github.com/alvarotrigo/fullPage.js"> Github</a><br><br><a class="button button-primary" href="//facebook.com/subthaiTV">Facebook Page</a><a class="button button-primary" href="//github.com/flatfact">Fork Me On GitHub</a><br><br><br><br><a href="#firstPage"><div id="animated-example" class="animated bounce"><img src="//farm8.staticflickr.com/7601/16623750648_f4c543a294_o.png" width="40px"></div></a></div></div></div></div></h2>
 </body>
 </html>
